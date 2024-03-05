@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_rv3"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:padding="12dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/total_price"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price before taxes:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/my_rv3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+             />
+        <TextView
+            android:id="@+id/tax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taxes: 5%"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/total_price"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+             />
+
+        <TextView
+            android:id="@+id/aftertax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="total including taxes:"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/tax"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+             />
+
+        <Button
+            android:id="@+id/cancelcart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete cart"
+            app:layout_constraintTop_toBottomOf="@+id/aftertax"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ordernow"
+
+             />
+
+        <Button
+            android:id="@+id/ordernow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="order now"
+            app:layout_constraintTop_toBottomOf="@+id/aftertax"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cancelcart"
+
+             />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
