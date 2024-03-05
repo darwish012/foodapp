@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "110907851109",
+    "firebase_url": "https://mile1111-default-rtdb.firebaseio.com",
+    "project_id": "mile1111",
+    "storage_bucket": "mile1111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110907851109:android:f065b0416e24b3feaae18c",
+        "android_client_info": {
+          "package_name": "com.example.mile1111"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA13hS6AFpan5nyh0ilp0oeh_BvQob70VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110907851109:android:c55c81b8dd6c62bfaae18c",
+        "android_client_info": {
+          "package_name": "com.example.signaling"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA13hS6AFpan5nyh0ilp0oeh_BvQob70VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110907851109:android:f63e1d50b619e42daae18c",
+        "android_client_info": {
+          "package_name": "com.example.yarab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA13hS6AFpan5nyh0ilp0oeh_BvQob70VY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
